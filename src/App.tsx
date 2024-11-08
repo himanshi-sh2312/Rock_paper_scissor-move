@@ -9,7 +9,7 @@ import {  Network } from "aptos";
 import { useState } from "react";
 
 const moduleAddress =
-  "0x610ea90387f24c61fa507060dfb272a901ef420411473ab344cc45d72904e3bb";
+  "0xb63d417b49fea817f35580ef0b2c75203c77ea228cbfc4c505a417a52f866c1a";
 const moduleName = "RockPaperScissors_01";
 const client = new Aptos(new AptosConfig({ network: Network.TESTNET }));
 
